@@ -1,13 +1,21 @@
 {
     "name": "qlimix/serializable",
     "type": "package",
-    "license": "LGPL-3.0-only",
+    "description": "An interface that indicates the object is serializable",
+    "license": "MIT",
+    "keywords": [
+        "qlimix",
+        "serializable"
+    ],
     "authors": [
         {
             "name": "frank",
             "email": "frank@qlimix.net"
         }
     ],
+    "require": {
+        "php": ">=7.2"
+    },
     "autoload": {
         "psr-4": {
             "Qlimix\\Serializable\\": "src/"
@@ -15,5 +23,8 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "require-dev": {
+        "qlimix/code-standard": "^1.0"
     }
 }

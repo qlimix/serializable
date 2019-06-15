@@ -11,7 +11,13 @@ interface SerializableInterface
      */
     public function getName(): string;
 
+    /**
+     * @return mixed[]
+     */
     public function serialize(): array;
 
+    /**
+     * @param mixed[] $data
+     */
     public static function deserialize(array $data): SerializableInterface;
 }
