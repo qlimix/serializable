@@ -1,6 +1,6 @@
 {
     "name": "qlimix/serializable",
-    "type": "package",
+    "type": "library",
     "description": "An interface that indicates the object is serializable",
     "license": "MIT",
     "keywords": [
